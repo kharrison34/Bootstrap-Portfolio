@@ -1,87 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            image{
-                width: 200px;
-                height: 200px;
-            }
-            
-            footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: red;
-            color: white;
-            text-align: center;
-          }
-        </style>
-
-        
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-                
-    </head>
-    <body>
-<!--Copy and paste nav bar compnoent here and play with it-->
- 
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+    <div =".container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Kyle Harrison</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Portfolio </a>
+                <a class="nav-item nav-link" href="#">Contact </a>
+                </div>
+            </div>
+        </nav>
+    </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-     <a class="navbar-brand myname" href="#">Kyle Harrison</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-             <li class="nav-item active">
-                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-     
-        </ul>
-   </div>
-
-   <!-- <div>   
+    <div =".container">
         <div class="container">
             <div class="row 4">
-            <div class="col-lg">
-            One of three columns
+                <div class="col-sm">
+                    <!-- <div class=".container imagediv"></div>
+                        <img src="assets/images/kyleheadshot.JPG" class="circle">
+                    </div> -->
+                    <img id="idid" src="assets/images/kyleheadshot.JPG" alt="picture of kyle" class="img-thumbnail meimg">                                        
+
+                     <p class="center">Kyle Harrison is one hell of a guy.</p>
+                </div>
+                <div class="col-sm">
+                    <br>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quae nostrum laudantium corporis quam repudiandae illum. Maiores quidem eveniet cumque, quos numquam illum obcaecati enim quam libero, rem adipisci cum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse dolor est! Deleniti blanditiis quasi ex esse recusandae eos deserunt porro ipsam vel fugiat. Dolor officiis deleniti esse voluptas quisquam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis nostrum dolor pariatur porro voluptatum vero nobis reiciendis, eligendi eos quas, sint quibusdam aspernatur natus commodi id? Atque, voluptatum temporibus.</p>
+                </div>
+                <div class="col-sm">
+                    <br>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, autem voluptas ad dignissimos illum itaque, sunt enim velit voluptatibus ipsam expedita? Doloremque voluptatem, libero commodi maiores eos sit architecto animi?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta architecto sed sit at, tenetur quasi sapiente doloribus, dolorem expedita atque totam necessitatibus iure placeat impedit, veritatis magni repellat repudiandae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda corrupti sunt repudiandae aspernatur dolor alias voluptates quia voluptatem nostrum unde optio quae eum, laudantium animi earum perferendis eius necessitatibus.</p>
+                </div>
             </div>
-          <div class="col-lg">
-            One of three columns
-          </div>
-          <div class="col-lg">
-            One of three columns
-          </div>
+        </div> 
+        
+    <!-- <div =".container">
+        <div class="container">
+            <div class="row 4">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Fluid jumbotron</h1>
+                        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>   -->
-    <img src="assets/images/kyleheadshot.JPG" class="rounded float-left" alt="picture of kyleheadshot">
+    </div> -->
 
-    <div class=".container-fluid">
-            
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores incidunt eligendi suscipit id vel vitae hic illum officia asperiores architecto vero unde, voluptatum esse ratione? Quibusdam laboriosam praesentium esse.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sed veritatis sunt sint ab in quisquam provident accusantium, aperiam, cum cupiditate corporis voluptates esse ullam illo voluptas dolorem excepturi perspiciatis!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi veritatis laboriosam atque expedita tenetur rerum ipsum, obcaecati ullam beatae quo, adipisci excepturi deserunt praesentium et inventore modi dicta quibusdam.</p>
-     
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Skills and Abilities</h1>
+            <p class="lead jumbop">knowledge in html5, css and javascript will be updated with real skills soon!</p>
+        </div>
     </div>
 
 
-    <footer>
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                 <h1 class="display-4">Fluid jumbotron</h1>
-                 <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                </div>
-             </div>
-    </footer>
+        
+     
 
 
-
-    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
 </html>

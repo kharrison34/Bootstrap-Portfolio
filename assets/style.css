@@ -1,0 +1,51 @@
+image{
+    width: 100px;
+}
+
+body{
+    background-color: midnightblue;
+}
+
+p{
+    color: white;
+}
+
+.jumbop{
+    color: midnightblue;
+}
+
+.center{
+    text-align: center;
+}
+
+.meimg{
+    padding-top: 30px;
+}
+
+.img-thumbnail{
+    background-color: midnightblue;
+    border-color: midnightblue;
+
+}
+
+.backcol{
+    background-color: white;
+}
+
+span{
+  
+    
+}
+
+.banana{
+    padding-top: 20px;
+}
+
+section{
+    background-color: blueviolet;
+    /* padding-top: 40px; */
+}
+
+navbar{
+    background-color: white'
+}
